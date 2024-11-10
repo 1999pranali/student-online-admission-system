@@ -1,0 +1,87 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <title></title>
+   <style type="text/css">
+   body{
+    padding: 0px;
+    margin: 0px;
+   }
+   .menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    }
+   .menu ul li{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    position: relative;
+    width: 250px;
+    background-color: purple;
+    border-top: 1px solid white;
+
+   }
+   .menu ul li:hover{
+    background-color: rgb(255,0,171);
+   }
+  .menu ul ul{
+   position: absolute;
+   visibility: hidden;
+   margin-left: 95%;
+   margin-top: -16%;
+   }
+   .menu ul li:hover > ul{
+    visibility: visible;
+   }
+    .menu ul li a{
+    color: white;
+    text-decoration: none;
+   }
+  </style>
+  </head>
+  <body>
+  <div class="header" style="text-align: center; width: 100%; height: 80px; display: block; background-color: gray; color: white; padding-top: 10px; ">
+     <h1>Admin Panel</h1>
+   </div>
+       <div class="menu" >
+        <ul>
+          <li><a href="">Course And Subject</a>
+              <ul>
+                <li><a href="course.php">Course</a></li>
+                <li><a href="subject.php">Subject</a></li>
+              </ul>
+          </li>
+          <li><a href="">Category</a>
+              <ul>
+                <li><a href="castcat.php">Castcategory</a></li>
+                <li><a href="subcast.php">Subcategory</a></li>
+                <li><a href="reservecat.php">Reserved Category</a></li>
+              </ul>
+          </li> 
+          <li><a href="">Address</a>
+              <ul>
+                <li><a href="state.php">State</a></li>
+                <li><a href="domicile.php">Domicile State</a></li>
+                <li><a href="district.php">District</a></li>
+              </ul>
+          </li>
+          <li><a href="">Admission</a></li>
+       </ul> 
+       </div>
+    
+           <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+

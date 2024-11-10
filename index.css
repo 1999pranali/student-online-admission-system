@@ -1,0 +1,40 @@
+      body{
+      margin: 0px;
+      padding: 0px;
+        }
+    .dropdown ul{
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      height: 100%;
+      }
+    .dropdown ul li{
+      text-align: center;
+      color: white;
+      padding: 15px;
+      position: relative;
+      width: 250px;
+      background-color: purple;
+      border-top: 1px solid white;
+
+
+      }
+    .dropdown ul li:hover{
+      background-color: rgb(225,0,171);
+        }
+    .dropdown ul ul{
+      position: absolute;
+    
+      visibility: hidden;
+      margin-left: 95%;
+      margin-top: -16%;
+        }
+    .dropdown ul li:hover > ul{
+       visibility: visible;
+       
+         }
+    .dropdown ul li a{
+      color: white;
+      text-decoration: none;
+        }
+    

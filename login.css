@@ -1,0 +1,55 @@
+body{
+  background-color: lightblue;
+}
+.form1{
+
+	width: 600px;
+	height: 400px;
+	margin: 15px auto;
+	padding: 20px;
+	border: 1px solid #00C4DE;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.button1 {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: blue;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+.form{
+  
+  width: 60%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ 
+li a:hover {
+  color: white;
+  background-color: blue;
+}

@@ -1,0 +1,19 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+#menu{
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: red;
+
+	}
+#menu ul li{
+	color: blue;
+	list-style: none;
+	padding: 15px 10px;
+	border-bottom: 1px solid white;
+
+}

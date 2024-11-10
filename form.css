@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <title></title>
+   <style type="text/css">
+     button{
+      position: absolute;
+      background-color: gray;
+     }
+     body{
+      font-family: arial;
+     }
+   </style>
+  </head>
+  <body>
+    <div class="container" style="text-align: center; background-color: gray; color: white; margin: 0px 0px 0px 0px; padding: 20px;">
+     <h1>Admin Panel</h1>
+     </div>
+<ul class="nav flex-column">
+  <div class="container" style="margin-left: 0px;" >
+  <div class="row">
+    <div class="col-4" style="background: pink; padding: 10px;">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+        <li class="nav-item">
+          <ul><a class="nav-link active" id="v-pills-course-tab" data-toggle="pill" role="tab" aria-controls="v-pills-course" aria-selected="true"
+            style="border-bottom: 1px solid; width: 300px; " href="course.php">Course</a></ul>
+          <ul><a class="nav-link" id="v-pills-subject-tab" data-toggle="pill" role="tab" aria-controls="v-pills-subject" aria-selected="false"  style="border-bottom: 1px solid;width: 300px;" href="">Subject</a></ul>
+          <ul><a class="nav-link" id="v-pills-category-tab" data-toggle="pill" role="tab" aria-controls="v-pills-category" aria-selected="false" style="border-bottom: 1px solid;width: 300px;" href="">Category</a></ul>
+          <ul><a class="nav-link" id="v-pills-subcategory-tab" data-toggle="pill" role="tab" aria-controls="v-pills-subcategory" aria-selected="false" style="border-bottom: 1px solid;width: 300px;" href="">Subcategory</a></ul>
+          <ul><a class="nav-link" id="v-pills-rev-tab" data-toggle="pill" role="tab" aria-controls="v-pills-rev" aria-selected="false" style="border-bottom: 1px solid; width: 300px;" href="">Reserved category</a></ul>
+          <ul><a class="nav-link" id="v-pills-state-tab" data-toggle="pill" role="tab" aria-controls="v-pills-state" aria-selected="false" style="border-bottom: 1px solid; width: 300px;" href="">State</a></ul>
+          <ul><a class="nav-link" id="v-pills-district-tab" data-toggle="pill" role="tab" aria-controls="v-pills-district" aria-selected="false" style="border-bottom: 1px solid; width: 300px;" href="">District</a></ul>
+          <ul><a class="nav-link" id="v-pills-domicilestate-tab" data-toggle="pill" role="tab" aria-controls="v-pills-domicilestate" aria-selected="false" style="border-bottom: 1px solid; width: 300px;" href="">Domicile state</a></ul>
+          <ul><a class="nav-link" id="v-pills-home-tab" data-toggle="pill" role="tab" aria-controls="v-pills-home" aria-selected="false" style="border-bottom: 1px solid; width: 300px;" href="">Reports</a></ul>
+         </li>
+  
+</div>
+</div>
+        
+        <div class="col-8" style="border: 1px solid;">
+          <div style="margin-top: 50px; font-size: 32px; font-family: arial;">Course</div>
+          <div class="form-group">
+          <div class="form-label-group">
+              <label>Course Name:</label><input type="text" name="cname" class="form-control" required="required" autofocus="autofocus">
+            </div>
+            </div>
+                  <div> <button type="submit" name="btnsub" value="submit">Save Course</button></div>
+     </div>
+     </div> 
+    
+</div>
+</div>
+</ul>
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
